@@ -18,7 +18,7 @@
             height: 100vh;
             display: grid;
             place-content: center;
-            padding-top: 400px;
+            
         }
         .card{
             margin: auto;
@@ -189,10 +189,13 @@
         }
         @media (max-width: 668px){
             .card{
-
                 flex-direction: column;
             }
             .logo{
                 padding-bottom: 20px;
             }
+            .container{
+                padding: 413px 0px;
+            }
+
         }
